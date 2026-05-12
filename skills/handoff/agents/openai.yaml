@@ -1,0 +1,6 @@
+interface:
+  display_name: "Handoff"
+  short_description: "Write a compact continuation note"
+  default_prompt: "Use $handoff to prepare a continuation document."
+policy:
+  allow_implicit_invocation: true

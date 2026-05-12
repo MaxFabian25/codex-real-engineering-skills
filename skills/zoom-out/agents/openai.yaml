@@ -1,0 +1,6 @@
+interface:
+  display_name: "Zoom Out"
+  short_description: "Map unfamiliar code in context"
+  default_prompt: "Use $zoom-out to explain how this code fits into the system."
+policy:
+  allow_implicit_invocation: true

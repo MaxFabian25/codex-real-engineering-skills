@@ -1,0 +1,6 @@
+interface:
+  display_name: "Diagnose"
+  short_description: "Disciplined bug diagnosis loops"
+  default_prompt: "Use $diagnose to debug this failing workflow."
+policy:
+  allow_implicit_invocation: true

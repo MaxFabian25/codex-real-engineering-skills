@@ -1,0 +1,6 @@
+interface:
+  display_name: "Triage"
+  short_description: "Triage issues into clear states"
+  default_prompt: "Use $triage to review and classify this issue."
+policy:
+  allow_implicit_invocation: true

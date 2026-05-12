@@ -1,0 +1,44 @@
+{
+  "name": "codex-real-engineering-skills",
+  "version": "0.1.0",
+  "description": "Codex-native engineering workflow skills.",
+  "author": {
+    "name": "Matt Pocock, adapted for OpenAI Codex by local Codex workstation",
+    "url": "https://github.com/mattpocock/skills"
+  },
+  "homepage": "https://github.com/mattpocock/skills",
+  "repository": "https://github.com/mattpocock/skills",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "skills",
+    "engineering",
+    "tdd",
+    "triage",
+    "architecture",
+    "diagnosis"
+  ],
+  "interface": {
+    "displayName": "Codex Real Engineering Skills",
+    "shortDescription": "Engineering workflow skills",
+    "longDescription": "Codex-native adaptation of mattpocock/skills production skills at commit f304057d61d3df3c9fd992ac2b6e3833cb9325fb.",
+    "developerName": "Local Codex Workstation",
+    "category": "Coding",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/mattpocock/skills",
+    "defaultPrompt": [
+      "Use $grill-with-docs to challenge this plan.",
+      "Use $tdd to implement this test-first.",
+      "Use $diagnose to debug this failure."
+    ],
+    "brandColor": "#2563EB",
+    "screenshots": [],
+    "privacyPolicyURL": "https://github.com/mattpocock/skills",
+    "termsOfServiceURL": "https://github.com/mattpocock/skills/blob/main/LICENSE"
+  },
+  "skills": "./skills/"
+}

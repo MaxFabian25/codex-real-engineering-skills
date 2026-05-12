@@ -1,0 +1,6 @@
+interface:
+  display_name: "Write A Skill"
+  short_description: "Draft and validate Codex skills"
+  default_prompt: "Use $write-a-skill to draft a new Codex skill."
+policy:
+  allow_implicit_invocation: true

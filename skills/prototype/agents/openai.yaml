@@ -1,0 +1,6 @@
+interface:
+  display_name: "Prototype"
+  short_description: "Build throwaway learning prototypes"
+  default_prompt: "Use $prototype to try a throwaway design prototype."
+policy:
+  allow_implicit_invocation: true

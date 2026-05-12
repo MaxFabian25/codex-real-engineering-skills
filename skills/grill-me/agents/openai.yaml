@@ -1,0 +1,6 @@
+interface:
+  display_name: "Grill Me"
+  short_description: "Interview until plan is clear"
+  default_prompt: "Use $grill-me to pressure-test my plan."
+policy:
+  allow_implicit_invocation: true

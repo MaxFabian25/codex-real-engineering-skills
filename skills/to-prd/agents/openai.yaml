@@ -1,0 +1,6 @@
+interface:
+  display_name: "To PRD"
+  short_description: "Turn context into a PRD"
+  default_prompt: "Use $to-prd to write a PRD from this conversation."
+policy:
+  allow_implicit_invocation: true
