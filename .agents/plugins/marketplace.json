@@ -8,7 +8,7 @@
       "name": "codex-real-engineering-skills",
       "source": {
         "source": "local",
-        "path": "."
+        "path": "./plugins/codex-real-engineering-skills"
       },
       "policy": {
         "installation": "AVAILABLE",
