@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "description": "Codex-native engineering workflow skills.",
   "author": {
-    "name": "Matt Pocock, adapted for OpenAI Codex by local Codex workstation",
-    "url": "https://github.com/mattpocock/skills"
+    "name": "Max Fabian",
+    "url": "https://github.com/MaxFabian25"
   },
-  "homepage": "https://github.com/mattpocock/skills",
-  "repository": "https://github.com/mattpocock/skills",
+  "homepage": "https://github.com/MaxFabian25/codex-real-engineering-skills",
+  "repository": "https://github.com/MaxFabian25/codex-real-engineering-skills",
   "license": "MIT",
   "keywords": [
     "codex",
@@ -21,15 +21,15 @@
   "interface": {
     "displayName": "Codex Real Engineering Skills",
     "shortDescription": "Engineering workflow skills",
-    "longDescription": "Codex-native adaptation of mattpocock/skills production skills at commit f304057d61d3df3c9fd992ac2b6e3833cb9325fb.",
-    "developerName": "Local Codex Workstation",
+    "longDescription": "Codex-native marketplace packaging of engineering workflow skills adapted from mattpocock/skills at commit f304057d61d3df3c9fd992ac2b6e3833cb9325fb.",
+    "developerName": "MaxFabian25",
     "category": "Coding",
     "capabilities": [
       "Interactive",
       "Read",
       "Write"
     ],
-    "websiteURL": "https://github.com/mattpocock/skills",
+    "websiteURL": "https://github.com/MaxFabian25/codex-real-engineering-skills",
     "defaultPrompt": [
       "Use $grill-with-docs to challenge this plan.",
       "Use $tdd to implement this test-first.",
@@ -37,8 +37,8 @@
     ],
     "brandColor": "#2563EB",
     "screenshots": [],
-    "privacyPolicyURL": "https://github.com/mattpocock/skills",
-    "termsOfServiceURL": "https://github.com/mattpocock/skills/blob/main/LICENSE"
+    "privacyPolicyURL": "https://github.com/MaxFabian25/codex-real-engineering-skills/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/MaxFabian25/codex-real-engineering-skills/blob/main/LICENSE"
   },
   "skills": "./skills/"
 }
