@@ -22,22 +22,14 @@ find plugins/codex-real-engineering-skills/skills -maxdepth 2 -name SKILL.md | w
 
 Expected skill count: `14`.
 
-## Fresh Install Check
+## Fresh Marketplace Source Check
 
-Run against a temporary Codex home after the release commit has been pushed to GitHub:
+Run against a temporary Codex home after the release commit has been pushed to GitHub. This verifies that Codex can resolve and clone the public git-backed marketplace source:
 
 ```bash
 tmp_home="$(mktemp -d)"
 CODEX_HOME="$tmp_home" codex plugin marketplace add MaxFabian25/codex-real-engineering-skills
 CODEX_HOME="$tmp_home" codex plugin marketplace upgrade codex-real-engineering-skills
-cat >> "$tmp_home/config.toml" <<'EOF'
-
-[plugins."codex-real-engineering-skills@codex-real-engineering-skills"]
-enabled = true
-EOF
-tmp_prompt="$(mktemp)"
-CODEX_HOME="$tmp_home" codex debug prompt-input "verify codex-real-engineering-skills" > "$tmp_prompt"
-rg 'Codex Real Engineering Skills|codex-real-engineering-skills:tdd|codex-real-engineering-skills:diagnose' "$tmp_prompt"
 rm -rf "$tmp_home"
 ```
 
@@ -53,7 +45,7 @@ Review every hit before release. Hits in security documentation or examples can 
 
 ## Prompt Surface Check
 
-After installing and enabling the plugin in a real Codex home:
+After installing, enabling, and restarting Codex in a real Codex home:
 
 ```bash
 tmp_prompt="$(mktemp)"

@@ -30,4 +30,4 @@ When changing plugin packaging, verify all of:
 - `.agents/plugins/marketplace.json` parses as JSON.
 - `plugins/codex-real-engineering-skills/.codex-plugin/plugin.json` parses as JSON.
 - The plugin bundle contains the expected skill entrypoints.
-- A git-backed Codex marketplace install exposes the namespaced skills in `codex debug prompt-input`.
+- A git-backed Codex marketplace install resolves from GitHub, and an enabled real Codex home exposes the namespaced skills in `codex debug prompt-input`.
