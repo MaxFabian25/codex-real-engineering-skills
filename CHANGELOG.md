@@ -2,7 +2,8 @@
 
 ## Unreleased
 
-- Adapt upstream `mattpocock/skills` updates through `be55a7970319ede7965edbb02b5e41cba1ca82c9`.
+- Adapt upstream `mattpocock/skills` updates through `2bf70051928429983de3b5718d277150926f8c89`.
+- Track upstream promotion of `teach` into its productivity skill surface.
 - Add the public `teach` skill and teaching workspace formats.
 - Update glossary, handoff, architecture review, and PRD skill guidance.
 
