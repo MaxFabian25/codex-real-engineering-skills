@@ -5,7 +5,7 @@ This repository packages Codex-native adaptations of Matt Pocock's engineering w
 ## Upstream Source
 
 - Upstream repository: <https://github.com/mattpocock/skills>
-- Upstream commit referenced by this plugin: `be55a7970319ede7965edbb02b5e41cba1ca82c9`
+- Upstream commit referenced by this plugin: `2bf70051928429983de3b5718d277150926f8c89`
 - Upstream license: MIT
 
 ## Adaptation Notes
