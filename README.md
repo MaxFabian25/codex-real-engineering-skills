@@ -15,6 +15,7 @@ The skills are adapted from Matt Pocock's MIT-licensed engineering skills and or
 - `codex-real-engineering-skills:prototype` - build throwaway prototypes to answer a specific question.
 - `codex-real-engineering-skills:setup-engineering-skills` - set up repo context docs for the engineering skills.
 - `codex-real-engineering-skills:tdd` - run red-green-refactor development.
+- `codex-real-engineering-skills:teach` - teach a new skill or concept with persistent learning artifacts.
 - `codex-real-engineering-skills:to-issues` - convert plans into vertical-slice implementation issues.
 - `codex-real-engineering-skills:to-prd` - write a PRD from existing context.
 - `codex-real-engineering-skills:triage` - triage issues into clear roles and states.
