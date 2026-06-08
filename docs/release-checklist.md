@@ -20,7 +20,7 @@ test -f plugins/codex-real-engineering-skills/.codex-plugin/plugin.json
 find plugins/codex-real-engineering-skills/skills -maxdepth 2 -name SKILL.md | wc -l
 ```
 
-Expected skill count: `14`.
+Expected skill count: `15`.
 
 ## Fresh Marketplace Source Check
 
@@ -50,5 +50,8 @@ After installing, enabling, and restarting Codex in a real Codex home:
 ```bash
 tmp_prompt="$(mktemp)"
 codex debug prompt-input "verify codex-real-engineering-skills" > "$tmp_prompt"
-rg 'Codex Real Engineering Skills|codex-real-engineering-skills:tdd|codex-real-engineering-skills:diagnose' "$tmp_prompt"
+rg 'Codex Real Engineering Skills' "$tmp_prompt"
+rg 'codex-real-engineering-skills:tdd' "$tmp_prompt"
+rg 'codex-real-engineering-skills:diagnose' "$tmp_prompt"
+rg 'codex-real-engineering-skills:teach' "$tmp_prompt"
 ```

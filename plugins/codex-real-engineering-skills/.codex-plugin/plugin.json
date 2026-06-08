@@ -16,12 +16,13 @@
     "tdd",
     "triage",
     "architecture",
-    "diagnosis"
+    "diagnosis",
+    "teaching"
   ],
   "interface": {
     "displayName": "Codex Real Engineering Skills",
     "shortDescription": "Engineering workflow skills",
-    "longDescription": "Codex-native marketplace packaging of engineering workflow skills adapted from mattpocock/skills at commit f304057d61d3df3c9fd992ac2b6e3833cb9325fb.",
+    "longDescription": "Codex-native marketplace packaging of engineering workflow skills adapted from mattpocock/skills at commit be55a7970319ede7965edbb02b5e41cba1ca82c9.",
     "developerName": "MaxFabian25",
     "category": "Coding",
     "capabilities": [
